@@ -9,7 +9,7 @@ let sum = 0
 
 console.log();
 
-while (lower_bound > upper_bound || lower_bound < MIN || upper_bound > MAX) {
+while (lower_bound > upper_bound || lower_bound < MIN || upper_bound > MAX || Number.isNaN(lower_bound) || Number.isNaN(upper_bound) || !Number.isInteger(lower_bound) || !Number.isInteger(upper_bound)) {
   lower_bound = Number(readlineSync.question("Lower bound: "));
   upper_bound = Number(readlineSync.question("Upper bound: "));
 }
