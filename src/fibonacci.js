@@ -11,13 +11,11 @@ let positive = Number(readlineSync.question("Positive integer: "));
 
 while (positive < MIN || positive > MAX || Number.isNaN(positive) || !Number.isInteger(positive)) {
   positive = Number(readlineSync.question("Positive integer: "));
-}
-
-while (positive >= MIN) {
-  n = a;
-  a = a + b;
-  b = n;
-  positive--;
+} while (positive >= MIN) {
+    n = a;
+    a = a + b;
+    b = n;
+    positive--;
 }
 
 b = b.toLocaleString({maximumFractionDigits: 2, minimumFractionDigits: 2});
