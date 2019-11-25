@@ -23,4 +23,4 @@ while (integer > 0) {
 
 }
 
-console.log("\n" + reverseString);
+console.log("\n" + reverseString + "\n");

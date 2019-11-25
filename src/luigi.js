@@ -29,3 +29,4 @@ while (row > 0) {
     console.log(pyramid + "  " + reverse);
     row -= 1
   }
+console.log();

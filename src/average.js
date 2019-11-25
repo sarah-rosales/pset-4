@@ -20,4 +20,4 @@ while (non_negative >= MIN && non_negative < MAX) {
 
 let average = sum / values
 average = average.toLocaleString("en", {maximumFractionDigits: 3, minimumFractionDigits: 3});
-console.log("\n" + average);
+console.log("\n" + average + ".\n");

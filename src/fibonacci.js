@@ -20,4 +20,4 @@ while (positive < MIN || positive > MAX || Number.isNaN(positive) || !Number.isI
 
 b = b.toLocaleString({maximumFractionDigits: 2, minimumFractionDigits: 2});
 
-console.log("\n" + b);
+console.log("\n" + b + ".\n");

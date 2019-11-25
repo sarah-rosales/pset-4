@@ -21,4 +21,4 @@ for (let i = 2; i < non_negative; i++) {
   }
 }
 
-console.log("\n" + value);
+console.log("\n" + value + "\n");

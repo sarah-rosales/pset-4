@@ -21,6 +21,7 @@ while (row > 0) {
   } for (i = 0; i < row - 1; i++) {
       pyramid = pyramid.replace(pyramid.charAt(i), " ");
   }
-    console.log( pyramid);
+    console.log(pyramid);
     row -= 1
   }
+console.log();

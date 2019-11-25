@@ -24,4 +24,4 @@ for (let i = lower_bound; i <= upper_bound; i = i + 2) {
 
 sum = sum.toLocaleString({maximumFractionDigits: 2, minimumFractionDigits: 2});
 
-console.log("\n" + sum + ".");
+console.log("\n" + sum + ".\n");
